@@ -229,7 +229,7 @@ export function Signature() {
                       >
                         {l.label}
                       </div>
-                      <div className="text-[10px] font-mono text-fg-lo mt-1">
+                      <div className="text-[11px] font-mono text-fg-lo mt-1">
                         {l.meta}
                       </div>
                     </div>
@@ -308,7 +308,7 @@ export function Signature() {
                     <span className="hidden xs:inline">CLUSTER · </span>ATLAS 042
                   </span>
                 </div>
-                <div className="flex items-center gap-2 sm:gap-4 text-[10px] font-mono shrink-0">
+                <div className="flex items-center gap-2 sm:gap-4 text-[11px] font-mono shrink-0">
                   <span className="text-fg-mute hidden sm:inline">
                     ROT <span className="text-fg-mid">{rotation.toFixed(1)}°</span>
                   </span>
@@ -362,17 +362,17 @@ export function Signature() {
               >
                 <div className="rounded-lg border border-line-hi bg-base/80 backdrop-blur-md p-3 shadow-[0_12px_30px_-10px_rgba(0,0,0,0.6)]">
                   <div className="flex items-center justify-between gap-3">
-                    <span className="text-[10px] font-mono text-fg-lo">
+                    <span className="text-[11px] font-mono text-fg-lo">
                       FOCUS
                     </span>
-                    <span className="text-[10px] font-mono text-accent-hi">
+                    <span className="text-[11px] font-mono text-accent-hi">
                       {FOCUS_NODE.delta}
                     </span>
                   </div>
                   <div className="mt-2 font-mono text-sm text-fg">
                     {FOCUS_NODE.id}
                   </div>
-                  <div className="mt-0.5 text-[10px] font-mono text-fg-lo">
+                  <div className="mt-0.5 text-[11px] font-mono text-fg-lo">
                     {FOCUS_NODE.source}
                   </div>
                   <div className="mt-2 flex items-center gap-2">
@@ -382,7 +382,7 @@ export function Signature() {
                         style={{ width: `${FOCUS_NODE.confidence * 100}%` }}
                       />
                     </div>
-                    <span className="text-[10px] font-mono text-fg-mid">
+                    <span className="text-[11px] font-mono text-fg-mid">
                       {FOCUS_NODE.confidence.toFixed(2)}
                     </span>
                   </div>

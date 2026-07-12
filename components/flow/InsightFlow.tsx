@@ -194,7 +194,7 @@ export function InsightFlow() {
                           : "bg-line w-8 group-hover:bg-fg-lo group-hover:w-10"
                       }`}
                     />
-                    <span className="pointer-events-none absolute top-3 left-0 text-[10px] font-mono uppercase tracking-widest whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 text-fg-mid">
+                    <span className="pointer-events-none absolute top-3 left-0 text-[11px] font-mono uppercase tracking-widest whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 text-fg-mid">
                       {s.title}
                     </span>
                   </div>

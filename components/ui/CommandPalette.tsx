@@ -154,7 +154,7 @@ export function CommandPalette() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Type a command or ask Xai…"
-                className="flex-1 bg-transparent outline-none text-sm text-fg placeholder:text-fg-lo font-normal"
+                className="flex-1 bg-transparent outline-none text-[15px] text-fg placeholder:text-fg-lo font-normal"
               />
               <span className="text-[10px] font-mono text-fg-mute border border-line rounded px-1.5 py-0.5">
                 ESC
@@ -216,7 +216,7 @@ export function CommandPalette() {
               ))}
             </div>
 
-            <div className="flex items-center justify-between px-4 h-10 border-t border-line text-[10px] font-mono text-fg-lo">
+            <div className="flex items-center justify-between px-4 h-10 border-t border-line text-[11px] font-mono text-fg-lo">
               <div className="flex items-center gap-4">
                 <span className="flex items-center gap-1.5">
                   <span className="border border-line rounded px-1 py-0.5 text-fg-mute">↑↓</span>

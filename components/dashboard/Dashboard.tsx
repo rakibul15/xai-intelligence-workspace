@@ -142,7 +142,7 @@ export function Dashboard() {
                 </div>
                 <div>
                   <div className="text-sm text-fg font-medium">Atlas</div>
-                  <div className="text-[10px] font-mono text-fg-lo">team workspace</div>
+                  <div className="text-[11px] font-mono text-fg-lo">team workspace</div>
                 </div>
               </div>
 
@@ -270,7 +270,7 @@ export function Dashboard() {
                   <div className="rounded-lg border border-line bg-elevated/60 p-4">
                     <div className="flex items-center justify-between mb-3">
                       <div className="mono-label text-fg-lo">Recent alerts</div>
-                      <span className="text-[10px] font-mono text-accent-hi">live</span>
+                      <span className="text-[11px] font-mono text-accent-hi">live</span>
                     </div>
                     <div className="space-y-0.5">
                       {alerts.map((a, i) => (
@@ -286,11 +286,11 @@ export function Dashboard() {
                           </span>
                           <div className="flex-1 min-w-0">
                             <div className="text-[11px] text-fg truncate">{a.source}</div>
-                            <div className="text-[10px] font-mono text-fg-lo capitalize">
+                            <div className="text-[11px] font-mono text-fg-lo capitalize">
                               {a.type} · {a.confidence.toFixed(2)}
                             </div>
                           </div>
-                          <div className="text-[10px] font-mono text-fg-mute shrink-0 group-hover:text-fg-lo transition-colors">
+                          <div className="text-[11px] font-mono text-fg-mute shrink-0 group-hover:text-fg-lo transition-colors">
                             {a.time}
                           </div>
                         </button>
@@ -327,7 +327,7 @@ export function Dashboard() {
                         );
                       })}
                     </div>
-                    <div className="text-[10px] font-mono text-fg-lo">
+                    <div className="text-[11px] font-mono text-fg-lo">
                       Sorted by confidence
                     </div>
                   </div>
@@ -335,7 +335,7 @@ export function Dashboard() {
                   <div className="overflow-x-auto">
                     <table className="w-full text-left text-sm min-w-[560px]">
                       <thead>
-                        <tr className="text-[10px] font-mono uppercase tracking-wider text-fg-lo border-b border-line">
+                        <tr className="text-[11px] font-mono uppercase tracking-wider text-fg-lo border-b border-line">
                           <th className="py-2 pl-4 font-normal">Signal</th>
                           <th className="py-2 font-normal hidden sm:table-cell">Source</th>
                           <th className="py-2 font-normal">Confidence</th>
@@ -367,7 +367,7 @@ export function Dashboard() {
                             <td className="py-3 font-mono text-xs text-fg-lo hidden md:table-cell">{r.time}</td>
                             <td className="py-3 pr-4 text-right">
                               <span
-                                className={`inline-flex items-center h-6 px-2 rounded text-[10px] font-mono border ${
+                                className={`inline-flex items-center h-6 px-2 rounded text-[11px] font-mono border ${
                                   statusStyle[r.status]
                                 }`}
                               >

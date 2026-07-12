@@ -174,7 +174,7 @@ export function Nav() {
                   Sign in
                 </Button>
               </motion.div>
-              <div className="mt-10 text-[11px] font-mono text-fg-mute">
+              <div className="mt-10 text-[12px] font-mono text-fg-mute">
                 Xai — Intelligence Workspace · sin1
               </div>
             </Container>
