@@ -163,10 +163,15 @@ export function Signature() {
 
         <div className="grid grid-cols-12 gap-6 md:gap-8 lg:gap-12 mt-6 md:mt-8 items-start">
           <div className="col-span-12 lg:col-span-5 lg:pt-4">
-            <h2 className="font-display text-5xl sm:text-6xl md:text-7xl text-fg leading-[0.95]">
-              Every structure
-              <br />
-              is a lens.
+            <h2
+              aria-label="Every structure is a lens."
+              className="font-display text-5xl sm:text-6xl md:text-7xl text-fg leading-[0.95]"
+            >
+              <span aria-hidden>
+                Every structure
+                <br />
+                is a lens.
+              </span>
             </h2>
 
             <p className="mt-8 text-lg text-fg-mid max-w-md leading-relaxed">

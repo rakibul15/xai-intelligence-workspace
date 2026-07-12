@@ -136,10 +136,15 @@ export function InsightFlow() {
         <Container>
           <div className="mb-8 md:mb-14">
             <SectionLabel index="02" label="The Pipeline" />
-            <h2 className="mt-4 md:mt-6 font-display text-4xl sm:text-5xl md:text-6xl text-fg max-w-3xl leading-[1.05]">
-              Three stages.
-              <br />
-              One continuous thought.
+            <h2
+              aria-label="Three stages. One continuous thought."
+              className="mt-4 md:mt-6 font-display text-4xl sm:text-5xl md:text-6xl text-fg max-w-3xl leading-[1.05]"
+            >
+              <span aria-hidden>
+                Three stages.
+                <br />
+                One continuous thought.
+              </span>
             </h2>
           </div>
 

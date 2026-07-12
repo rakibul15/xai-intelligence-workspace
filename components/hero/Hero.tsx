@@ -58,11 +58,14 @@ export function Hero() {
             animate="show"
             custom={1}
             variants={fade}
+            aria-label="Raw data becomes decisions."
             className="mt-8 font-display text-[clamp(3.25rem,8vw,6.5rem)] leading-[0.95] text-fg"
           >
-            Raw data
-            <br />
-            becomes decisions.
+            <span aria-hidden>
+              Raw data
+              <br />
+              becomes decisions.
+            </span>
           </motion.h1>
 
           <motion.p

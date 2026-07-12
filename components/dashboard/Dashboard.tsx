@@ -101,10 +101,15 @@ export function Dashboard() {
     >
       <Container>
         <SectionLabel index="03" label="The Workspace" />
-        <h2 className="mt-6 font-display text-5xl md:text-6xl text-fg max-w-3xl leading-[1.05]">
-          A calm interface
-          <br />
-          for loud data.
+        <h2
+          aria-label="A calm interface for loud data."
+          className="mt-6 font-display text-5xl md:text-6xl text-fg max-w-3xl leading-[1.05]"
+        >
+          <span aria-hidden>
+            A calm interface
+            <br />
+            for loud data.
+          </span>
         </h2>
         <p className="mt-6 text-lg text-fg-mid max-w-xl leading-relaxed">
           The workspace where signals become decisions. Restrained by design,
