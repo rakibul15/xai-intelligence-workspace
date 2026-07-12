@@ -2,7 +2,7 @@
 
 A single-page interactive product experience that visually explains how Xai turns raw data into decisions.
 
-- **Live:** _(added after deploy)_
+- **Live:** https://xai-intelligence-workspace.vercel.app
 - **Figma:** https://www.figma.com/design/JL1YNH1xj0zO0xohixNyhb — design system, tokens, components, Hero frame
 - **Walkthrough:** _(video link added after recording)_
 
