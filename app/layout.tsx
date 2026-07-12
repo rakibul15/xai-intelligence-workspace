@@ -28,6 +28,7 @@ const instrumentSerif = Instrument_Serif({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://xai-intelligence-workspace.vercel.app"),
   title: "Xai — Intelligence Workspace",
   description:
     "Xai transforms unstructured inputs into structured intelligence, then into automations that ship without you.",
@@ -36,6 +37,13 @@ export const metadata: Metadata = {
     description:
       "Raw data becomes decisions. A workspace for teams that ship on evidence.",
     type: "website",
+    siteName: "Xai",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Xai — Intelligence Workspace",
+    description:
+      "Raw data becomes decisions. A workspace for teams that ship on evidence.",
   },
 };
 
